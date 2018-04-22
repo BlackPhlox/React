@@ -1,0 +1,51 @@
+.nav-logo {
+    padding-right: 10px;
+    border-right: 2px solid black;
+}
+
+.nav-logo a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-logo h1 {
+    margin: 0;
+    font-size: 43px;
+}
+
+.nav-logo p {
+    margin: 0;
+    font-size: 20px;
+}
+
+.nav-bar {
+    background-color: var(--main-default-bg-color);
+    border-left: 6px solid var(--main-selected-color);
+    padding: 10px;
+    height: 100%;
+    display: flex;
+	flex-direction: row;
+    text-align: left;
+}
+
+.nav-btns{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.nav-btns div{
+    padding-right: 15px;
+}
+
+.nav-bar a{
+    color: black;
+    font-size: 3em;
+    position: relative;
+    text-decoration: none;
+}
+
+.nav-bar .nav-btn {
+    padding-left: 12px;
+}

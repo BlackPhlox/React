@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+:root {
+    --main-font: 'Raleway';
+    --sec-font: 'Open Sans';
+    
+	/* font size */
+	--font_size-large: 1.8rem;
+	--font_size-base: 1.2rem;
+	--font_size-small: 0.8rem;
+}
+
+a {
+    font-family: var(--main-font), sans-serif;
+}
+
+h1{
+    font-family: var(--main-font), sans-serif;
+}

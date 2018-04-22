@@ -1,0 +1,27 @@
+.itu-logo{
+    font-family: var(--sec-font), sans-serif;
+    background-color: black;
+    font-size: 52px;
+    text-align: center;
+    color: white;
+    height: 200px;
+    width: 100%;
+}
+
+.itu-logo p{
+    margin: 0px;
+}
+
+.footer-column {
+    font-size: 0.5em;
+    box-sizing: border-box;
+    color: white;
+    float: left;
+    width: 50%;
+}
+
+.footer-column h2 {
+    font-size: 1.3em;
+    color: white;
+    margin: 0px;
+}

@@ -1,0 +1,108 @@
+@import '../../css/settings/settings.css';
+
+article{
+	padding: 15px;
+	display: flex;
+}
+
+/*
+    Smaller than 750px
+*/
+
+@media screen and (max-width: 750px) {    
+    article {
+		flex-direction: column;
+        border-bottom: 6px solid var(--main-selected-color);
+        background-color: var(--main-default-bg-color);
+        transition-duration: 0.1s;
+    }
+
+    article img {
+        padding: 15px;
+        height: auto;
+        width: auto;
+        max-width: calc(100% - 30px);
+        max-height: 50%;
+        object-fit: none;
+    }
+}
+
+/*
+    Greater than 750px
+*/
+
+@media screen and (min-width: 750px) {
+    article {
+		flex-direction: row;
+        background-color: var(--main-default-bg-color);
+        transition-duration: 0.1s;
+    }
+    
+    .content-box-left{
+        padding-left: 10px;
+        border-left: 6px solid var(--main-selected-color);
+        text-align: left;
+    }
+    
+    .content-box-right{
+        border-right: 6px solid var(--main-selected-color);
+        text-align: right;
+    }
+
+    article img {
+        padding: 15px;
+        height: auto;
+        width: auto;
+        max-width: 50%;
+        max-height: 340px;
+        object-fit: none;
+    }
+
+}
+
+/*
+    On a handheld
+*/
+
+@media only screen and (max-device-width: 750px) {
+    article {
+		flex-direction: column;
+        background-color: var(--main-default-bg-color);
+        transition-duration: 0.1s;
+    }
+
+    article img {
+        padding: 15px;
+        height: auto;
+        width: auto;
+        max-width: calc(100% - 30px);
+        max-height: 50%;
+        object-fit: none;
+    }
+    
+    article div{
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+}
+
+article div {
+    font-family: var(--sec-font), sans-serif;
+}
+
+article h1 {
+    font-family: var(--main-font), sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+article p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+article:hover {
+    background-color: var(--main-selected-color);
+}

@@ -1,0 +1,27 @@
+.sub-form{
+    background-color: var(--main-default-bg-color);
+    padding: 10px;
+    text-align: center;
+}
+
+.sub-form h1{
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.sub-form div{
+    padding-bottom: 5px;
+}
+
+.sub-form input{
+    width: 202px;
+}
+
+.sub-form textarea{
+    height: 150px;
+    width: 200px;
+}
+
+button{
+    width: 206px;
+}
