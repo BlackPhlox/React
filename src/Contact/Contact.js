@@ -8,7 +8,6 @@ class Contact extends Component{
         <div>
             <div className="spacer" />
             <ContactBox />
-            
         </div>
         )
     }

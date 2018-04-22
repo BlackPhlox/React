@@ -14,7 +14,7 @@ Afl. 3 React intergration
 
 Til denne opgavebesvarelse converteret jeg de
 allerede difineret elementer som objekter i JSX.
-Dette gjorde det nemme og undgik en hel del 
-redundant kode. 
+Dette gjorde det nemmere at holde overblik og 
+undgik en hel del redundant kode. 
 
 By Mikkel Luja Rasmussen | milr@itu.dk 2018
