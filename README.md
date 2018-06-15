@@ -1,10 +1,10 @@
 Opgavebesvarelsen kan tilgås på:
-    https://blackphlox.github.io/React
+    https://blackphlox.github.io/itu
 Eller via GitHub:
     Non-build version:
-        https://github.com/BlackPhlox/React
+        https://github.com/BlackPhlox/itu
     Statiske version:
-        https://github.com/BlackPhlox/React/tree/gh-pages
+        https://github.com/BlackPhlox/itu/tree/gh-pages
 
 For at kører hjemmesiden lokalt:
 npm install
