@@ -7,8 +7,10 @@ Eller via GitHub:
         https://github.com/BlackPhlox/itu/tree/gh-pages
 
 For at kører hjemmesiden lokalt:
-npm install
-npm start
+
+-    npm install
+
+-    npm start
 	
 Afl. 3 React intergration
 
