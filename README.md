@@ -14,8 +14,8 @@ For at kører hjemmesiden lokalt:
 	
 Afl. 3 React intergration
 
-Til denne opgavebesvarelse converteret jeg de
-allerede difineret elementer som objekter i JSX.
+Til denne opgavebesvarelse converteret de
+allerede defineret elementer som objekter i JSX.
 Dette gjorde det nemmere at holde overblik og 
 undgik en hel del redundant kode. Derudover er 
 der også blevet gjort brug af ITCSS.
